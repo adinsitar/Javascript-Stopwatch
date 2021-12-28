@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+.wrapper {
+  text-align: center;
+  margin: auto;
+}
+
+#timer {
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: ivory;
+  margin: 80px;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: ivory;
+}
+
+button {
+  height: 70px;
+  width: 400px;
+  margin: 15px;
+  border-radius: 13px;
+  border: 1px solid rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(255, 0, 0);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.license {
+  color: ivory;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 150px;
+}
+
+.link {
+  text-decoration: none;
+  color: gold;
+}
+
+@media screen and (max-width: 560px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  p {
+    font-size: 80px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+  }
+
+  #timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  p {
+    font-size: 60px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 60px;
+    font-size: 40px;
+  }
+
+  #timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  p {
+    font-size: 55px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 60px;
+    font-size: 40px;
+  }
+
+  #timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  p {
+    font-size: 45px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+  }
+
+  #timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 60%;
+  }
+
+  #timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}
